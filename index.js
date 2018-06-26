@@ -4,6 +4,7 @@ function getFirstSelector (selector) {
   return document.querySelector(selector);
 }
 
+<<<<<<< HEAD
 function nestedTarget() {
   return document.getElementById('nested').querySelector('div.target')
 }
@@ -18,4 +19,8 @@ function increaseRankBy(n) {
 
 function deepestChild() {
   return document.querySelector('#grand-node div div div div');
+=======
+function nestedTarget(#nested) {
+  return document.querySelector(#nested); 
+>>>>>>> 812cbfb68bfb3587fdd37a4452a4446f69336145
 }
